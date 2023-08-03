@@ -1,0 +1,17 @@
+.div__conteudo {
+    background-color: var(--navy);
+    color: var(--branco);
+    padding: 24px;
+    background-image: url(../Img/philadelphia-76ers-logo-black-and-white\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.texto__titulo {
+    padding: 24px;
+    font-weight: 700;
+}
+
+.texto__corpo {
+    padding: 10px;
+}

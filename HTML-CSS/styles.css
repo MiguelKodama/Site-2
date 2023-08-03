@@ -1,0 +1,21 @@
+@import url(styles/header.css);
+@import url(styles/texto.css);
+@import url(styles/footer.css);
+@import url(styles/homepage.css);
+
+:root {
+    --cor-de-fundo: #cfd2d4;
+    --branco: #FFFFFF;
+    --azul: #006BB6;
+    --navy: #002B5C;
+    --vermelho: #ED174C;
+    --preto: #000000;
+    --fonte-principal: "Roboto Condensed";
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
