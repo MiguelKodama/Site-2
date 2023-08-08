@@ -7,11 +7,12 @@
 
 .homepage__imagem {
     background-color: var(--vermelho);
-    box-shadow: 10px;
+    align-items: center;
 }
 
-.homepage__historia {
+.homepage__histo {
     background-color: var(--branco);
+    box-shadow: 5em;
 }
 
 .homepage__historia-título {
@@ -22,17 +23,52 @@
     justify-content: center;
     font-size: 32px;
     padding: 1em;
+    background-color: var(--navy);
+}
+
+.homepage__historia2 {
+    display: flex;
+    justify-content: space-around;
 }
 
 .homepage__historia-logos {
     align-items: center;
     display: flex;
-    justify-content: center;
     padding: 1em;
+    background-color: var(--branco);
+    justify-content: space-around;
 }
 
-@media(min-width:1720px) {
-    .homepage__imagem1 {
-        width: 1728px;
+.homepage__historia-datas {
+    font-weight: 700;
+    color: var(--navy);
+    background-color: var(--vermelho);
+    padding-right: 1em;
+}
+
+@media screen and (max-width: 1020px) {
+    .imagem2 {
+        display: none;
+    }
+    .imagem3 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .imagem1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1708px) {
+    .imagem3 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .imagem2 {
+        display: none;
     }
 }
